@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <!-- fontawesome icons link  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- custom css -->
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <title>Dashboard</title>
+</head>
+<body>
+    <!-- Sidebar Start -->
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <div class="logo_name" >Unity Streak</div> 
+            </div>
+            <i class="fas fa-bars" id="btn"></i>
+           
+
+        </div>
+        <ul class="nav_list">
+            <li>
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="search.....">
+                <span class="tooltip">search </span>
+            </li>
+    
+            <li>
+                <a href="#">
+                    <i class="fas fa-th-large"></i>
+                    <span class="links_name">Dashboard</span>
+                </a>
+                <span class="tooltip">Dashboard</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-user"></i>
+                    <span class="links_name">User</span>
+                </a>
+                <span class="tooltip">User</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-comments"></i>
+                    <span class="links_name">Messages</span>
+                </a>
+                <span class="tooltip">Messages</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-chart-pie"></i>
+                    <span class="links_name">Analytics</span>
+                </a>
+                <span class="tooltip">Analytics</span>
+            </li>
+    
+            <li>
+                <a href="#">
+                    <i class="fas fa-folder"></i>
+                    <span class="links_name">File Manager</span>
+                </a>
+                <span class="tooltip">File Manager</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="links_name">Order</span>
+                </a>
+                <span class="tooltip">Order</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='fas fa-heart'></i>
+                    <span class="links_name">Saved</span>
+                </a>
+                <span class="tooltip">Saved</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='fas fa-cog'></i>
+                    <span class="links_name">Settings</span>
+                </a>
+                <span class="tooltip">Settings</span>
+            </li>
+
+
+            
+        </ul>
+
+
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_details">
+                    <img src="/img/dummy4.png" alt="">
+                    <div class="name_job">
+                        <div class="name">Pratiksha</div>
+                        <div class="job">Web Designer</div>
+                    </div>
+                </div>
+                
+                <i class="fas fa-sign-out-alt" id="log_out"></i>
+            </div>
+        </div>
+    </div>
+    <!-- Sidebar End -->
+
+    <!-- Body Content Start -->
+    <div class="home_content">
+
+        <!-- Navbar Start -->
+        <div class="top-bar">
+           
+            <div class="search">               
+                <input type="text" name="search" placeholder="Search here...">
+                <label for="search"><i class="fas fa-search"></i></label>
+            </div>
+           
+            <div class="icon-bell">            
+            <i class="fas fa-bell"></i>
+           </div>
+
+            <div class="right">
+                <ul>
+                 <li>
+                    <a href="#">
+                        <p><span>User Name</span></p><i class="fas fa-angle-down"></i><img src="/img/dummy3.png" alt="Admin" width="40">
+                    </a>
+                     
+                    <div class="dropdown">
+                        <ul>
+                          <li><a href="#"><i class="fas fa-user"></i>Profile</a></li>
+                          <li><a href="#"><i class="fas fa-sliders-h"></i>Settings</a></li>
+                          <li><a href="#"><i class="fas fa-sign-out-alt"></i> Signout</a></li>
+                      </ul>
+                    </div>  
+                  </li>
+              </ul>
+            </div>    
+        </div>
+        <!-- Navbar End --> 
+
+
+        </div>
+     <!-- Body Content End -->
+
+     <footer>
+        <p>&copy;Copyright 2021 <a href="www.unitystreak.com">UnityStreak.com</a></p>
+      </footer>
+
+</body>
+<script src="/js/main.js"></script>
+</html>
